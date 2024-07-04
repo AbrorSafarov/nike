@@ -1,0 +1,772 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+.container{
+  width: 100%;
+  height: 5650px;
+  overflow-x: none;
+  
+}
+.navbar{
+  width: 100%;
+  height:35px;
+  background-color: rgb(230, 230,230);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+.icons {
+  margin-left:50px ;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:20px;
+  
+}
+
+.nav_texts{
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 25px;
+  gap:20px;
+ 
+ 
+  
+}
+.nav_texts>p{
+  font-size: 12px;
+  font-family:  Arial, Helvetica, sans-serif;
+  
+  color: #111111;  
+}
+.icons>img{
+  opacity: 1;
+}
+.icons>img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+#second{
+  cursor: pointer;
+  opacity: 1;
+}
+#second:hover{
+  opacity: 0.6;
+}
+.nav_texts>p{
+  opacity: 1;
+}
+.nav_texts>p:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.features{
+  
+  width: 100%;
+  height:80px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 50px;
+  gap: 380px;
+  
+}
+
+.features>img{
+  width: 80px;
+  height:60px;
+  opacity: 1;
+  
+}
+.features>img:hover{
+  cursor: pointer;
+  opacity: 0.5;
+  
+}
+.features-text{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 80px;
+  gap: 20px;
+  padding: 1rem;
+  align-items: center;
+  position: relative;
+  left: 70px;
+
+}
+.features-text>p{
+  position: relative;
+  top: 5px;
+  color: #111;
+  font-size: 16px;
+  font-family: Helvetica;
+}
+#feature:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.search-part{
+  position: relative;
+  right: 80px;
+}
+.search{
+  width: 160px;
+  height: 40px;
+  background-color:  rgb(230, 230,230);
+  border-radius: 40px;
+  padding: 7px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  opacity: 0.5;
+}
+.search>img{
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+#search-button{
+  width: 160px;
+  height: 40px;
+  border-radius:  0px 40px 40px 0px;
+  border: none;
+  padding:10px;
+  color: gray;
+  background-color:  rgb(230, 230,230);
+  font-size: 18px;
+
+}
+#search-button:hover{
+  background-color: lightgray;
+  color: black;
+ 
+}
+.search:hover{
+  background-color: lightgray;
+  color: black;
+  opacity: 1;
+}
+.righticons{
+  position: relative;
+  right: 375px;
+  display: flex;
+  flex-direction: row;
+  gap:15px;
+}
+.love,.shop{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  background-color: none;
+  justify-content: center;
+}
+.love:hover{
+  border-radius: 50%;
+  background-color: lightgray;
+}
+.shop:hover{
+  border-radius: 50%;
+  background-color: lightgray;
+}
+.sections{
+  width: 100%;
+  height: 74px;
+  background-color: rgb(230, 230,230);
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid lightgray;
+}
+.nestsection{
+  width: 700px;
+  height: 74px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nestsection>img{
+  width: 24px;
+  height: 24px;
+  opacity: 0.5;
+}
+.nestsection>img:hover{
+  opacity: 1;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.nestsection>h2{
+  color: #222222;
+  font-size: 20px;
+  font-family: Helvetica;
+  opacity: 0.8;
+
+}
+.nikephotos{
+  width: 100%;
+  height: 870.2px;
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 200px;
+}
+.smallphotos{
+  width: 70px;
+  height: 800px;
+  background-color: none;
+  margin: 48px 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+.video{
+  
+  margin: 48px 8px 0px 0;
+  cursor: pointer;
+}
+.informationofnike{
+  width: 496px;
+  height: 790px;
+  
+  margin: 48px 8px 0 0;
+  position: relative;
+  right: 25px;
+  overflow:auto;
+  border-radius: 1%;
+  padding:4px 48px 0 24px;
+}
+
+
+.smallphotos>div{
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 5%;
+  opacity: 1;
+}
+.smallphotos>div:hover{
+  opacity: .5;
+}
+.a1box{
+  background-image: url(./images/retronike.png);
+  background-size: cover;
+  background-position: center;
+ 
+}
+.a2box{
+  background-image: url(./images/a2img.png);
+  background-size: cover;
+  background-position: center;
+}
+.a3box{
+  background-image: url(./images/a3img.png);
+  background-size: cover;
+  background-position: center;
+}
+.a4box{
+  background-image: url(./images/a4img.png);
+  background-size: cover;
+  background-position: center;
+}
+.a5box{
+  background-image: url(./images/a5img.png);
+  background-size: cover;
+  background-position: center;
+}
+.a6box{
+  background-image: url(./images/a7img.png);
+  background-size: cover;
+  background-position: center;
+}
+.a7box{
+  background-image: url(./images/a7aimg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.a8box{
+  background-image: url(./images/a8img.png);
+  background-size: cover;
+  background-position: center;
+}
+.a9box{
+  background-image: url(./images/a9img.png);
+  background-size: cover;
+  background-position: center;
+}
+.a10box{
+  background-image: url(./images/a10img.png);
+  background-size: cover;
+  background-position: center;
+}
+.headtext{
+  width: 306px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  padding: 0 0 8px 0;
+
+}
+.headtext>h2,p{
+  position: relative;
+  bottom: 15px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+}
+.headtext>h1{
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+}
+.shoescolor{
+  width: 368px;
+  height: 70.4px;
+  
+  flex-direction: row;
+  gap: 10px;
+  display: flex;
+}
+.shoescolor>div{
+  width: 70.4px;
+  height: 70.4px;
+ 
+  border-radius:5% ;
+}
+.ashoes{
+  background-image: url(./images/purpleshoe.png);
+  background-size: cover;
+  background-position: center;
+}
+.bshoes{
+  background-image: url(./images/whiteshoe.png);
+  background-size: cover;
+  background-position: center;
+}
+.cshoes{
+  background-image: url(./images/blackshoe.png);
+  background-size: cover;
+  background-position: center;
+}
+.eshoes{
+  background-image: url(./images/greenshoe.png);
+  background-size: cover;
+  background-position: center;
+}
+.shoescolor>div:hover{
+  border: 1px solid black;
+  cursor: pointer;
+}
+.selection{
+  margin-top: 35px;
+  margin-bottom: 8px;
+  width:380px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  color: #111111;
+  justify-content: space-between;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.guide{
+  opacity: .6;
+  cursor: pointer;
+}
+.size{
+  width: 386px;
+  height: 333px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap:8px;
+}
+.size>div{
+  width: 120.66px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a8a6a6;
+  border-radius: 7%;
+}
+.size>div>h2{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: .8;
+}
+.size>div:hover{
+  border: 2px solid #111111;
+  cursor: pointer;
+}
+.payment{
+  width: 376.2px;
+  height: 93.2px;
+  
+  margin: 18px 0px 8px 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.klarna{
+  padding-top: 25px;
+  width: 350px;
+  height: 93.2px;
+  
+  border: 1px solid #a8a6a6;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#p1{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 3px;
+    color: #17120F;
+}
+#p2{
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+  color: #17120F;
+}
+#p3{
+  color: #787471;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.buttonadd{
+  width: 376px;
+  height: 61.6px;
+  background-color: #111111;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttonfav{
+  width: 376px;
+  height: 61.6px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid  #a8a6a6 ;
+  margin: 12px 0 0 0;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.buttonfav:hover{
+  border: 1px solid  #111111 ;
+  cursor: pointer;
+}
+.buttonadd:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.free{
+  width: 376px;
+  height:147.6px;
+  
+  flex-direction: column;
+  padding: 24px 0 0 0;
+  justify-content: center;
+  display: flex;
+
+}
+.free>h3{
+  position: relative;
+  bottom: 30px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#111111;
+  opacity: 0.8;
+  
+}
+
+.free>p{
+  top:-5px;
+  color: #707072;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.informations{
+  display: flex;
+  padding: 24px 0 0 0;
+  height: 196px;
+  width: 376px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111111;
+  line-height: 1.75;
+  display: flex;
+  justify-content: center;
+}
+.color_shown{
+  margin-top:65px; 
+  width: 376px;
+  height: 156px;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.color_shown>p{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#111111;
+}
+.sections2-photos{
+  margin-left:55px ;
+
+  
+  width: 1400.4px;
+  height: 700px;
+ 
+}
+.How{
+  width: 1400.4px;
+  height: 84.6px;
+  padding: 0 0 8px 0;
+  font-size:14px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+.upload{
+  width: 1400.4px;
+  height: 600px;
+  
+  flex-direction: column;
+  display: flex;
+ 
+}
+.personphoto{
+  width: 1400.4px;
+  height: 510px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  
+  gap:15px;
+}
+.yourphoto{
+  margin-bottom: 15px;
+  padding-top: 30px;
+  width: 181.2px;
+  height: 34.6px;
+  border:1px solid rgb(177, 177, 177) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.yourphoto:hover{
+  border:1px solid black ;
+  cursor: pointer;
+}
+.p1photo,.p2photo,.p3photo,.p4photo,.p5photo{
+  width: 440px;
+  height: 440px;
+  cursor: pointer;
+ 
+}
+.username1,.username2,.username3,.username4,.username5{
+  width: 100px;
+  height: 50px;
+}
+.portrait1{
+  margin-top:90px;
+  margin-left: 60px;
+  margin-bottom: 30px;
+  width: 1400.4px;
+  height:684.81px;
+  background-image: url(./images/portrait1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.portrait2{
+  margin-top:120px;
+  margin-left: 60px;
+  width: 1400.4px;
+  height:684.81px;
+  background-image: url(./images/port.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.portrait3{
+  margin-top:120px;
+  margin-left: 60px;
+  width: 1400.4px;
+  height:684.81px;
+  background-image: url(./images/portrait3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.section3-photos{
+  margin-top: 150px;
+  width: 1400.4px;
+  height: 524.66px;
+  
+  margin-left:55px ;
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  overflow-x: scroll;
+}
+.photos1,.photos2,.photos3,.photos4,.photos5,.photos6,.photos7{
+  width: 400px;
+  height: 504.66px;
+  cursor: pointer;
+  
+ 
+}
+.footer{
+  margin-top: 75px;
+  width:100% ;
+  height: 451.6px ;
+  background-color: #111;
+  padding: 40px 40px 0 0;
+}
+.footer-body{
+  width: 1380.4px;
+  height: 306px;
+  flex-direction: row;
+  display: flex;
+  margin-left:66px;
+}
+.body-1{
+  width: 832.8px;
+  height:306px;
+ 
+  flex-direction: row;
+  display: flex;
+
+}
+.text-row1>h3{
+  color: #fff;
+  text-transform: uppercase;
+  font-family: Nike TG, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 2.333333333333333;
+  
+}
+.text-row2>h3{
+  color: #787878;
+  font-family: Nike TG, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 2.333333333333333;
+}
+.text-row3>h3{
+  color: #787878;
+  font-family: Nike TG, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  line-height: 2.333333333333333;
+}
+
+
+.text-row2>h3:hover{
+  color: #fff;
+}
+.text-row3>h3:hover{
+  color: #fff;
+}
+.twitter{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(./images/icons8-twitter-30.png);
+  background-size: cover;
+  background-position: center;
+}
+.facebook{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(./images/facebook.png);
+  background-size: cover;
+  background-position: center;
+}
+.youtube{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(./images/icons8-youtube-logo-30.png);
+  background-size: cover;
+  background-position: center;
+}
+.instagram{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  background-image: url(./images/icons8-instagram-old-30.png);
+  background-size: cover;
+  background-position: center;
+}
+.body-2{
+  position: relative;
+  left: 340px;
+  width: 217.67px;
+  height:37.33px;
+
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+.twitter:hover{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.facebook:hover{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.youtube:hover{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+.instagram:hover{
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
